@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.page {
+	width: 900px;
+	margin: 2em auto;
+	font-family: sans-serif;
+}
+
+.page > article {
+	width: 700px;
+	height: 300px;
+	display: flex;
+}
+
+article > .robo-img,
+article > .robo-info {
+	width: 50%;
+	background-color: aliceblue;
+}
+
+.robo-img > img {
+	height: 100%;
+	width: 100%;
+}
+
+.robo-img > figcaption {
+	margin-top: -1em;
+	text-align: center;
+}
+
+.robo-info {
+	padding: 2.5em;
+}
+
+.robo-info header {
+	margin: 1em 0;
+}
